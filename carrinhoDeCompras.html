@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleCarrinho.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Carrinho de compras</title>
 </head>
 <body>
@@ -28,39 +31,79 @@
           <a href="#" > <img src="assets/carrinho_header.png" alt="" srcset=""></a>
         </div>
       </header>
+    <div class="layout">
       <div>
-        <aside>
+        <aside class="pedido">
                 <h1>CARRINHO DE COMPRAS</h1>
-                <button> <a href="">&#60; Voltar as compras</a></button>
-                <h6>Seu carrinho</h6>
+                <a href="">&#60; Voltar as compras</a></button>
+                <h3>Seu carrinho</h3>
                 <p>Você tem 3 itens em seu carrinho</p>
         </aside>
-        <div>
+        <div class="blocopedido">
+          <img class="comidas1" src="assets/Pizza Original Hecha en Casa.jpeg" alt="pizza">
             <p>Pizza italiana</p>
             <p>Quejo extra nas bordas</p>
         </div>
-        <div>
+        <div class="blocopedido">
+            <img class="comidas2" src="assets/mesadefrios.jpeg" alt="mesa de frios">
             <p>Mesa de frios</p>
             <p>Salame extra</p>
         </div>
-        <div>
+        <div class="blocopedido">
+            <img class="comidas3" src="assets/Comidas Mexicanas Check more at….jpeg" alt="Arroz espanhol">
             <p>Arroz espanhol</p>
             <p>Alho extra</p>
         </div>
       </div>
 
-      <aside>
-        <h6>Detalhes do Cartão <img src="assets/fotoDeperfilCarrinho.jpeg" alt="Icone do perfil do usuario">></h6>
+       <aside class="compra">
+        <div class="ajuste">
+        <h6>Detalhes do Cartão: <img class="perfil" src="assets/fotoDeperfilCarrinho.jpeg" alt="Icone do perfil do usuario"></h6>
         <p>Tipo do Cartão</p>
-        <ul>
-            <li><button></button></li>
-            <li><button></button></li>
-            <li><button></button></li>
-            <li><button></button></li>
+        <ul class="cartao">
+            <li><button><img src="/assets/PNG MasterCard Payment Logo Icon.png" alt="MasterCard"></button></li>
+            <li><button><img src="/assets/Visa Logo editorial stock photo_ Illustration of background - 124289843.jpeg" alt="Visa"></button></li>
+            <li><button><img src="/assets/Elo Logo - PNG Logo Vector Downloads (SVG, EPS).png" alt="Elo"></button></li>
+           
         </ul>
-        <p>Name</p>
-        <textarea name="nome" id="" cols="30" rows="10"></textarea>
+        <p>Nome:</p>
+        <textarea class="preencher" name="nome" id="" cols="30" rows="1">Name</textarea>
+        <p>Numero do cartão:</p>
+        <textarea class= "preencher" name="numerodocartao" id="" cols="30" rows="1">1111 2222</textarea>
+        <p>Data de expiração:</p>
+        <textarea class="preencher2" name="vencimento" id="" cols="30" rows="1">mm/yy</textarea> <p> CVV:</p><textarea class="preencher" name="codigo" id="" cols="30" rows="1">123</textarea>
+        <br>
+        <p class="esquerda">Subtotal</p> 
+        <p class="direita">R$1,668</p>
+        <p class="esquerda">Da</p>
+        <p class="direita">R$ 4</p>
+        <p class="esquerda">Total(Taxa incl.)</p>
+        <p class="direita">R$1,672</p>
+        <button class="finalizar">Finalizar</button>
+        </div>
       </aside>
+    </div>
+    <footer>
+      <h3>Pão Fresquinho</h3>
+      <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href=""> Categorias</a></li>
+          <li><a href="">Sobre nós</a></li>
+          <li><a href="">Fale conosco</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Ajuda</a></li>
+          <li><a href="">Privacy</a></li>
+      </ul>
+      <hr>
+      <p>© 2023 Pão fresquinho. Todos direitos reservados.</p>
+      <ul>
+          <li><a href=""><img src="assets/facebook.png" alt="Nosso facebook"></a></li>
+          <li><a href=""><img src="assets/twitter.png" alt="Nosso Twitter"></a></li>
+          <li><a href=""><img src="assets/instagram.png" alt="Nosso Instagram"></a></li>
+          <li><a href=""><img src="assets/pin-de-localizacao.png" alt="Nossa localização"></a></li>
+          <li><a href=""><img src="assets/social.png" alt="Nosso linkedin"></a></li>
+      </ul>
+  </footer>
 
 </body>
 </html>
