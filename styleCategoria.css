@@ -1,0 +1,802 @@
+body {
+  position: relative;
+  width: 1366px;
+  height: 4615px;
+  background: #DBD0B3;
+}
+
+.barraPaoFresquinho {
+  /* Rectangle 88 */
+  position: absolute;
+  width: 1366px;
+  height: 75px;
+  left: -10px;
+  top: 0px;
+  background: #4A1D1F;
+}
+a {
+  text-decoration: none;
+}
+
+.logoPaoFresquinho {
+  /* Pão fresquinho */
+
+
+  position: absolute;
+  width: 260px;
+  height: 47px;
+  left: 39px;
+  top: 14px;
+}
+
+.inicio {
+  /* início */
+
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 363px;
+  top: 23px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.categoriasPaoFresquinho {
+  /* Categorias */
+
+
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 487px;
+  top: 23px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.sobreNosPaoFresquinho {
+  /* Sobre nós */
+
+
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  left: 638px;
+  top: 23px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.faleConoscoPaoFresquinho {
+  /* Fale conosco */
+
+
+  position: absolute;
+  width: 125px;
+  height: 30px;
+  left: 776px;
+  top: 23px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.retanguloPesquisaPaoFresquinho {
+  /* Rectangle 12 */
+
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 172px;
+  height: 45px;
+  left: calc(50% - 172px/2 + 352px);
+  top: calc(50% - 45px/2 - 2270px);
+
+  background: #4A1D1F;
+  border: 0.5px solid #FFFFFF;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+.botaoPesquisa {
+  /* Rectangle 14 */
+
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: calc(50% - 45px/2 + 460.5px);
+  top: calc(50% - 45px/2 - 2270px);
+
+  background: rgba(247, 55, 65, 0.2);
+  border: 0.5px solid rgba(112, 60, 62, 0.5);
+}
+
+.lupaPesquisa {
+  /* Vector */
+
+
+  position: absolute;
+  left: 83.02%;
+  right: 15.59%;
+  top: 0.61%;
+  bottom: 98.98%;
+
+  border: 2px solid #FBEDCD;
+}
+
+.pessoaIcone {
+  position: absolute;
+  left: 88.87%;
+  right: 9.26%;
+  top: 0.5%;
+  bottom: 98.95%;
+
+  background: #4A1D1F;
+}
+
+.carrinho {
+  /* Vector */
+
+
+  position: absolute;
+  left: 94.29%;
+  right: 3.93%;
+  top: 0.54%;
+  bottom: 98.93%;
+
+  background: #4A1D1F;
+}
+
+.Explore {
+  /* EXPLORE NOSSAS RECEITAS ÚNICAS. */
+
+
+  position: absolute;
+  width: 415.45px;
+  height: 469px;
+  right: 851.24px;
+  top: 152px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 120px;
+  /* or 188% */
+
+
+  color: #000000;
+
+}
+
+.retanguloVermelho {
+  /* Rectangle 3 */
+
+
+  position: absolute;
+  width: 389.19px;
+  height: 112.12px;
+  right: 887.81px;
+  top: 190.22px;
+
+  background: #8F4343;
+  transform: matrix(1, -0.04, 0.03, 1, 0, 0);
+}
+
+.retanguloAmarelo {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 415.18px;
+  height: 117.53px;
+  right: 858.82px;
+  top: 550px;
+
+  background: #B5A023;
+  transform: matrix(1, -0.04, 0.03, 1, 0, 0);
+}
+
+.diversidade {
+  /* Diversidade é o nosso lema! */
+
+
+  position: absolute;
+  width: 415px;
+  height: 58px;
+  left: 100px;
+  top: 665px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+
+  color: #000000;
+
+}
+
+.textoVejaMais {
+  /* Veja mais */
+
+
+  position: absolute;
+  width: 139.12px;
+  height: 44px;
+  left: 95.89px;
+  top: 740px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: -0.05em;
+
+  color: #FFFFFF;
+}
+
+.vejaMais {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 215px;
+  height: 81px;
+  left: 56px;
+  top: 754px;
+
+  background: #000000;
+  border-radius: 20px;
+}
+
+.textoCompreAgora {
+  /* Compre Agora */
+
+
+  position: absolute;
+  width: 208px;
+  height: 45px;
+  left: 322px;
+  top: 740px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  letter-spacing: -0.05em;
+
+  color: #FFFFFF;
+}
+
+.compreAgora {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 301px;
+  top: 755px;
+
+  background: #000000;
+  border-radius: 10px;
+}
+
+/* img { */
+/* position: absolute; */
+/* width: 729.21px; */
+/* height: 784px; */
+/* left: 596px; */
+/* top: 109px; */
+
+/* background: url(image.png); */
+/* border-radius: 30px; */
+/* } */
+
+.croissant {
+  /* incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1 */
+
+
+  position: absolute;
+  width: 690.72px;
+  height: 784px;
+  left: 583.49px;
+  top: 109px;
+
+  background: url(image.png);
+  border-radius: 30px;
+}
+
+.btnVejaMais {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 215px;
+  height: 81px;
+  left: 56px;
+  top: 754px;
+  color: white;
+  font-size: 20px;
+
+  background: #000000;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.btnCompreAgora {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 301px;
+  top: 755px;
+  color: white;
+  font-size: 20px;
+
+  background: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.barraCategoria {
+  /* Brands */
+  /* Rectangle 87 */
+
+
+  position: absolute;
+  width: 1366px;
+  height: 186px;
+  left: -10px;
+  top: 1079px;
+
+  background: #937F0C;
+}
+
+.botaoBolos {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 310px;
+  height: 81px;
+  left: 27px;
+  top: 1131px;
+  color: white;
+  font-size: 20px;
+
+  background: #733030;
+  border-radius: 20px;
+}
+
+.botaoSalgados {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 293.64px;
+  height: 81px;
+  left: 368.54px;
+  top: 1131px;
+  color: white;
+  font-size: 20px;
+
+
+  background: #733030;
+  border-radius: 20px;
+}
+
+.botaoPaes {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 310px;
+  height: 81px;
+  left: 709px;
+  top: 1131px;
+  color: white;
+  font-size: 20px;
+
+
+  background: #733030;
+  border-radius: 20px;
+}
+
+.botaoDoces {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 310px;
+  height: 81px;
+  left: 1045px;
+  top: 1131px;
+  color: white;
+  font-size: 20px;
+
+  background: #733030;
+  border-radius: 20px;
+}
+
+.textoNossasReceitas {
+  /* NOSSAS RECEITAS */
+
+
+  position: absolute;
+  width: 506px;
+  height: 73px;
+  left: 104px;
+  top: 1334px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 50px;
+  /* or 104% */
+
+  letter-spacing: 0.06em;
+
+  color: #000000;
+
+}
+
+.coxinhaimg {
+  /* Rectangle 20 */
+
+
+  position: absolute;
+  width: 484px;
+  height: 704px;
+  left: 95px;
+  top: 1451px;
+
+  background: url(image.png);
+  border-radius: 20px;
+}
+
+.textoCoxinha {
+  /* Coxinha de Frango */
+
+
+  position: absolute;
+  width: 321px;
+  height: 36px;
+  left: 95px;
+  top: 2150px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  /* or 156% */
+
+  letter-spacing: -0.04em;
+
+  color: #191919;
+
+}
+
+.CoxinhaMais {
+  /* Veja Mais! */
+
+
+  position: absolute;
+  width: 215px;
+  height: 50px;
+  left: 366px;
+  top: 2180px;
+  color: white;
+  font-size: 15px;
+
+  background: #000000;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.tortaMaca {
+  /* Rectangle 21 */
+
+
+  position: absolute;
+  width: 484px;
+  height: 704px;
+  left: 744px;
+  top: 1451px;
+
+  background: url(image.png);
+  border-radius: 20px;
+}
+
+.textoTortaMaca {
+  /* Torta de Maçã */
+
+
+  position: absolute;
+  width: 230px;
+  height: 36px;
+  left: 744px;
+  top: 2150px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  /* or 156% */
+
+  letter-spacing: -0.04em;
+
+  color: #191919;
+}
+
+.tortaMacaMais {
+  /* Veja Mais! */
+
+
+  position: absolute;
+  width: 215px;
+  height: 50px;
+  left: 1000px;
+  top: 2180px;
+  color: white;
+  font-size: 15px;
+
+  background: #000000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.bannerPromocao {
+  /* Banner */
+
+
+  position: absolute;
+  width: 1366px;
+  height: 968px;
+  left: -10px;
+  top: 2491px;
+
+}
+
+.PromocaoCompreAgora {
+  /* Rectangle 85 */
+
+
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 978px;
+  top: 3228px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+
+  background: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.receitasFavoritas {
+  /* Group 82 */
+
+
+  position: absolute;
+  width: 468.63px;
+  height: 100px;
+  left: 58px;
+  top: 3648px;
+
+}
+
+.frenchToast {
+  /* Rectangle 50 */
+
+
+  position: absolute;
+  width: 548px;
+  height: 575px;
+  left: 58px;
+  top: 3816px;
+
+  background: url(image.png);
+  border-radius: 20px;
+}
+
+.tortaLimao {
+  /* Rectangle 49 */
+
+
+  position: absolute;
+  width: 695px;
+  height: 575px;
+  left: 638px;
+  top: 3816px;
+
+  background: url(image.png);
+  border-radius: 20px;
+}
+
+.textoFrenchToast {
+  /* French Toast R$21,99 */
+
+
+  position: absolute;
+  width: 329px;
+  height: 41px;
+  left: 58px;
+  top: 4402px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  /* or 156% */
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+
+}
+
+.textoAbaixode49 {
+  /* Abaixo de R$49 */
+
+
+  position: absolute;
+  width: 242px;
+  height: 45px;
+  left: 683px;
+  top: 4402px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  /* or 156% */
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.frenchToastMais {
+  /* Veja Mais! */
+
+
+  position: absolute;
+  width: 215px;
+  height: 50px;
+  left: 391px;
+  top: 4425px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins';
+
+  background: #000000;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.abaixode49Mais {
+
+
+  position: absolute;
+  width: 215px;
+  height: 50px;
+  left: 1059px;
+  top: 4425px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins';
+
+  background: #000000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 10px;
+  background: #FBEDCD;
+  position: absolute;
+  bottom: -1830px;
+  width: 1366px;
+  top: 4800px;
+  height: 300px;
+}
+
+footer h3 {
+  margin-top: 10px;
+  color: #4A1D1F;
+
+}
+
+footer ul {
+  list-style: none;
+  text-align: right;
+}
+
+footer li {
+  display: inline-block;
+  margin: 30px;
+
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+hr {
+  border: 1px solid rgba(74, 29, 31, 0.22);
+}
+
+footer a {
+  text-decoration: none;
+  color: #272727;
+  ;
+}
