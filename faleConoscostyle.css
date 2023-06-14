@@ -165,15 +165,16 @@ ul {
   display: flex;
   list-style: none;
   position: absolute;
-  right: 3%;
+  right: 0%;
   bottom: 0%;
 }
 
 ul img {
-  width: 50px;
+  width: 40px;
   color: #4a1d1f;
+  height: 40px;
 }
 
 li {
-  margin-right: 40px;
+  margin-right: 50px;
 }
