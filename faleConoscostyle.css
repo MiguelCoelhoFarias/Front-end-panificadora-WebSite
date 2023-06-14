@@ -1,0 +1,179 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(
+    56.94deg,
+    #dbd0b3 46.16%,
+    #dbd0b3 62.15%,
+    #dbd0b3 79.96%
+  );
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  background: #4a1d1f;
+}
+
+.logo {
+  position: absolute;
+  width: 260px;
+  height: 47px;
+  left: 52px;
+  top: 15px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 50%;
+  left: 350px;
+  top: 26px;
+  text-align: center;
+  align-items: center;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 10px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Search {
+  box-sizing: border-box;
+  margin-left: 15px;
+  position: absolute;
+  width: 358px;
+  height: 50px;
+  left: calc(74% - 251px / 2 - 62.5px);
+  top: calc(46% - 45px / 2);
+  border: 0.5px solid #553d3f;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 9px 25px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+input,
+input::placeholder {
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+.search-bar button img {
+  width: 15px;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 0%;
+  width: 50px;
+  height: 50px;
+  background: #693336;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.btns {
+  position: absolute;
+  left: calc(103.5% - 251px / 2 - 62.5px);
+  top: calc(62% - 45px / 2);
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  text-align: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.atendentes img {
+  height: 500px;
+  width: 40%;
+  border-radius: 0px 100px;
+}
+
+.preencher {
+  margin: 10px 0 15px 0;
+  width: 30%;
+  margin-top: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 25%;
+}
+.preencher h1 {
+  color: #4a1d1f;
+}
+
+.preencher p {
+  color: #090d85cc;
+}
+
+.line {
+  border-bottom: 2px solid #00024b;
+  width: 100%;
+  height: 5%;
+  text-decoration: none;
+  background: linear-gradient(
+    56.94deg,
+    #dbd0b3 46.16%,
+    #dbd0b3 62.15%,
+    #dbd0b3 79.96%
+  );
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.mensagem {
+  background-color: #4a1d1f;
+  border-radius: 48px;
+  color: #fbedcd;
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  right: 41%;
+  bottom: 7%;
+}
+
+.contato-localizacao {
+  color: #4a1d1f;
+  position: absolute;
+  right: 2%;
+  top: 28%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 3%;
+  bottom: 0%;
+}
+
+ul img {
+  width: 50px;
+  color: #4a1d1f;
+}
+
+li {
+  margin-right: 40px;
+}
