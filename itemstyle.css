@@ -108,16 +108,49 @@ input::placeholder {
 .croissant {
   border-radius: 30px;
   width: 450px;
-  height: 450px;
+  height: 430px;
   position: absolute;
   top: 25%;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
-.item-titulo {
-  display: inline-block;
+.itemLogo {
+  margin: 0px 0px 10px 30px;
+}
+
+.descricao {
+  position: absolute;
+  width: 50%;
+  left: 40%;
+  top: 45%;
+  line-height: 30px;
+  color: #000000;
+}
+
+.item {
+  position: absolute;
+  width: 600.17px;
+  height: 100.12px;
+  right: 194.83px;
+  top: 66.3px;
+  font-size: 60px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  text-align: center;
+  line-height: 120px;
+  background: #8f4343;
+  transform: matrix(1, -0.04, 0.03, 1, 0, 0);
+}
+
+.preco {
+  position: absolute;
+  text-align: center;
+  width: 220.55px;
+  height: 60.53px;
+  right: 195.45px;
+  top: 190.36px;
+  font-size: 40px;
+  background: #b5a023;
+  transform: matrix(1, -0.04, 0.03, 1, 0, 0);
 }
 
 ul {
@@ -125,9 +158,10 @@ ul {
   position: absolute;
   list-style-type: none;
   right: 20%;
+  top: 75%;
 }
 ul li {
-  margin-right: 30px;
+  margin-left: 35px;
 }
 
 ul button {
@@ -138,4 +172,5 @@ ul button {
   height: 50px;
   font-weight: 500;
   font-size: 20px;
+  margin-right: 25px;
 }
