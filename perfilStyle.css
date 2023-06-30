@@ -1,0 +1,233 @@
+body {
+  background-color: #dbd0b3;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+  background: #4a1d1f;
+}
+
+.logo {
+  position: absolute;
+  width: 260px;
+  height: 47px;
+  left: 52px;
+  top: 15px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+  position: absolute;
+  width: 50%;
+  left: 350px;
+  top: 26px;
+  text-align: center;
+  align-items: center;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 10px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Search {
+  box-sizing: border-box;
+  margin-left: 15px;
+  position: absolute;
+  width: 358px;
+  height: 50px;
+  left: calc(74% - 251px / 2 - 62.5px);
+  top: calc(46% - 45px / 2);
+  border: 0.5px solid #553d3f;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 9px 25px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+input,
+input::placeholder {
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+.search-bar button img {
+  width: 15px;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 0%;
+  width: 50px;
+  height: 50px;
+  background: #693336;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 6px;
+}
+
+.btns {
+  position: absolute;
+  left: calc(103.5% - 251px / 2 - 62.5px);
+  top: calc(62% - 45px / 2);
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  text-align: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.ajuste {
+  margin-left: 15px;
+}
+.fichaPerfil {
+  background: #000000cc;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.photoProfile {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.tituloPerfil {
+  color: black;
+}
+
+article {
+  margin-left: 10px;
+}
+
+article p {
+  color: white;
+}
+
+textarea {
+  background: #de3c3c;
+  border-radius: 10px;
+  color: white;
+  width: 90%;
+  height: 20px;
+}
+
+hr {
+  color: black;
+  background-color: black;
+  height: 1px;
+  border: none;
+  width: 80%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+ul button {
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+}
+
+.cancelar {
+  border-color: #de3c3c;
+  color: #de3c3c;
+  font-size: 20px;
+  text-align: center;
+}
+
+.salvar {
+  background: #4a1d1f;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.cameraPerfil {
+  width: 20px;
+  border-radius: 30px;
+  color: white;
+  border: solid 3px #e94057;
+  background-color: white;
+  position: absolute;
+  top: 55%;
+  left: 8%;
+}
+
+.blocopedido {
+  background-color: #ffffff;
+  display: block;
+  width: 40%;
+  height: 63px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.blocopedido p {
+  margin-top: 10px;
+  /* margin-left: 40px; */
+  margin-left: 75px;
+}
+
+.comidas1,
+.comidas2 {
+  width: 63px;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.comidas3 {
+  width: 63px;
+  height: 64px;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.historico {
+  position: absolute;
+  width: 100%;
+  left: 55%;
+  top: 30%;
+}
+
+.historico h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: black;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+.historico a {
+  text-decoration: none;
+  color: black;
+}

@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-    <link rel="stylesheet" href="registro.css">
+    <title>Document</title>
+    <script>
+        function exibeRegistro() {
+            alert("Cadastro realizado com sucesso.")
+        }
+    </script>
+    <link rel="stylesheet" href="styleRegistro.css">
+
 
 </head>
 
@@ -31,17 +37,19 @@
             <p>CPF</p>
             <input class="campo" type="cpf" placeholder="xxx-xxx-xxx-xx"><br>
 
-            <input class="buttonCadastro" type="submit" value="Registrar"><br>
-            <a href="#">Ja tem uma conta ? Faça login (Clique aqui)</a><br>
+            <input class="buttonCadastro" type="button" onclick="exibeRegistro()" value="Registrar"><br>
+            <a href="login.html">Ja tem uma conta ? Faça login (Clique aqui)</a><br>
 
 
 
+</html>
 
 
-        </div>
+
+</div>
 
 
-    </div>
+</div>
 
 </body>
 

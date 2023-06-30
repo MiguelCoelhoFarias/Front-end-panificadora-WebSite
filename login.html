@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylelogin.css" />
+    <script>
+      function exibeLogin() {
+        alert("Cadastro não identificado no sistema");
+      }
+    </script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="loginStyle.css">
-
-</head>
-
-<body>
+  <body>
     <div class="page">
-        <div class="card">
-            <h1>Pão fresquinho</h1>
-            <p>E-mail</p>
-            <input class="campo" type="email" placeholder="Digite seu email"><br>
-            <p>Senha</p>
-            <input class="campo" type="password" placeholder="Digite seu password"><br>
-            <input class="buttonLogin" type="submit" value="Login"><br>
-            <a href="#">Esqueceu sua senha ? (Clique aqui)</a><br>
-            <a href="#"> Não tem uma conta ? Clique aqui para se registrar. </a>
-            <button class="iconGoogle"></button>
-            <button class="iconFacebook"></button>
-            <button class="iconApple"></button>
-
-
-
-
-
-        </div>
-
-
+      <div class="card">
+        <h1 id="pageTitle">Pão fresquinho</h1>
+        <p>E-mail</p>
+        <input
+          class="campo"
+          type="email"
+          id="email"
+          placeholder="Digite seu email"
+        /><br />
+        <p>Senha</p>
+        <input
+          class="campo"
+          type="password"
+          id="password"
+          placeholder="Digite sua senha"
+        /><br />
+        <input
+          class="buttonLogin"
+          type="button"
+          onclick="exibeLogin()"
+          value="Login"
+        /><br />
+        <a href="passwordRecover.html">Esqueceu sua senha? (Clique aqui)</a
+        ><br />
+        <a href="register.html"
+          >Não tem uma conta? Clique aqui para se registrar.</a
+        >
+        <button class="iconGoogle"></button>
+        <button class="iconFacebook"></button>
+        <button class="iconApple"></button>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
